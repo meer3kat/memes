@@ -1,0 +1,20 @@
+\BOOKMARK [1][-]{section.1}{A firing brain}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{simple simulation in matlab}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{example of shapes}{section.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.2.1}{move forward at a rate of one cell per time step, while preserving the same shape}{subsection.1.2}% 4
+\BOOKMARK [3][-]{subsubsection.1.2.2}{move forward at a rate of one cell per time step, launching other shapes behind them}{subsection.1.2}% 5
+\BOOKMARK [3][-]{subsubsection.1.2.3}{move forward at a rate of less than one cell per time step, while returning to the same shape after some period}{subsection.1.2}% 6
+\BOOKMARK [3][-]{subsubsection.1.2.4}{stay stationary but oscillate periodically}{subsection.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.3}{2D torus}{section.1}% 8
+\BOOKMARK [1][-]{section.2}{3D model}{}% 9
+\BOOKMARK [2][-]{subsection.2.1}{FEniCS implementation for 2D and 3D mesh}{section.2}% 10
+\BOOKMARK [2][-]{subsection.2.2}{3D torus hormone emission analysis}{section.2}% 11
+\BOOKMARK [2][-]{subsection.2.3}{Torus optimisation}{section.2}% 12
+\BOOKMARK [1][-]{section.3}{Conclusion}{}% 13
+\BOOKMARK [1][-]{section.4}{Reference}{}% 14
+\BOOKMARK [1][-]{section.5}{Appendix}{}% 15
+\BOOKMARK [2][-]{subsection.5.1}{1D code in matlab}{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.2}{2D code in matlab}{section.5}% 17
+\BOOKMARK [3][-]{subsubsection.5.2.1}{2D time independent Laplace equation code in matlab}{subsection.5.2}% 18
+\BOOKMARK [3][-]{subsubsection.5.2.2}{2D torus code in matlab}{subsection.5.2}% 19
+\BOOKMARK [2][-]{subsection.5.3}{3D code in python implement FEniCS}{section.5}% 20
