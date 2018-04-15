@@ -1,0 +1,11 @@
+my_fig = figure('position', [0, 0, 700, 500]);
+plot(x,result_B,'b','LineWidth',5);
+hold on;
+plot(x,result_S,'r','LineWidth',5);
+plot(x,result_R,'y','LineWidth',5);
+xlabel('time','FontSize',14);
+ylabel('number of people reacting to meme','FontSize',14);
+title('1000 simulation of spread of memes','FontSize',16);
+legend({'number of bored','number of sharinging','number of resting'},'Location','east');
+saveas(my_fig,'memes_sim_1000times.png');
+hold off;
